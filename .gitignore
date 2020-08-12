@@ -58,6 +58,9 @@ e2e/*.map
 
 # local env files
 .env.local
+.env.development.local
+.env.test.local
+.env.production.local
 .env.*.local
 
 # Logs
@@ -173,6 +176,16 @@ dist
 **/*.back.*
 
 node_modules
+
+# dependencies
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
 
 *.sublime*
 
